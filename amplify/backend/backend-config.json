@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "amplifyreactgraphql": {
+    "amplifyreactgraphqlda376ee5": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -31,8 +31,7 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "UPDATED_AT"
+          "EMAIL"
         ],
         "socialProviders": [],
         "usernameAttributes": [

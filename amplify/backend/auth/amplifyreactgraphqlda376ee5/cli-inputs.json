@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "testAuthIdentityPool",
+    "identityPoolName": "amplifyreactgraphqlda376ee5_identitypool_da376ee5",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif3cba8703",
-    "userPoolName": "amplifyreactgraphql",
+    "resourceNameTruncated": "amplifda376ee5",
+    "userPoolName": "amplifyreactgraphqlda376ee5_userpool_da376ee5",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -20,30 +20,29 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "email",
-      "updated_at"
+      "email"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
-    "userpoolClientWriteAttributes": [],
-    "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "amplif3cba8703_userpoolclient_lambda_role",
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "amplifda376ee5_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "3cba8703",
-    "resourceName": "amplifyreactgraphql",
+    "sharedId": "da376ee5",
+    "resourceName": "amplifyreactgraphqlda376ee5",
     "authSelections": "identityPoolAndUserPool",
-    "serviceName": "Cognito",
+    "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
-    "useDefault": "manual",
-    "userPoolGroups": false,
     "userPoolGroupList": [],
-    "adminQueries": false,
-    "thirdPartyAuth": false,
-    "authProviders": [],
+    "serviceName": "Cognito",
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }
-}
+} 
